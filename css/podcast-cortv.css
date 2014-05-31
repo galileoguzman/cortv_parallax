@@ -1,0 +1,74 @@
+/*
+Name: podcast-cortv.css;
+Description: Hoja de estilos de la pagina de podcast;
+*/
+
+#page-podcast{
+	background-image: url(../images/background-page-podcast.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 260px 527px;
+	color: #323e4a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	margin: 0 auto;
+	max-width: 90%;
+
+}
+
+#titulo-page-podcast{
+	font-size: 72px;
+	font-weight: normal;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.botones-podcast{
+	margin-bottom: 1em;
+	text-align: right;
+}
+.botones-podcast ul{
+	list-style: none;
+	padding: 0;
+}
+.botones-podcast li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.botones-podcast a{
+	background-color: #f15523;
+	color: #f4f4f4;
+	opacity: 0.8;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	-webkit-transition: ease all 0.4s;
+	-moz-transition: ease all 0.4s;
+	-op-transition: ease all 0.4s;
+	-ms-transition: ease all 0.4s;
+	transition: ease all 0.4s;
+}
+.botones-podcast a:hover{
+	opacity: 1;
+}
+
+.fecha-podcast{
+	margin: 0 !important;
+	padding:0 !important;
+	font-size: 0.8em;
+	text-transform: lowercase;
+}
+.podcast{
+	border-bottom: solid 2px #f15523; 
+	margin: 0.5em 0;
+	text-align: left;
+}
+.podcast h3{
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 24px;
+}
+.podcast p{
+	margin: 25px 0;
+	max-width: 620px;
+}

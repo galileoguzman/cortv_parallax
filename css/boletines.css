@@ -1,0 +1,93 @@
+/*
+Name: boletines.css;
+Description: Hoja de estilos para la seccion de boletines de prensa de CORTV;
+Author: CORTV;
+*/
+
+#boletines-cortv{
+	background-color: #fff;
+	margin: 3em auto;
+	padding: 2.5em 2em;
+	width: 90%;
+}
+#boletin-single{
+	width: 70%;
+}
+
+#boletin-single, #menu-boletines{
+	display: inline-block;
+	vertical-align: top;
+}
+#capa-boletin{
+	background-color: rgba(255,255,255,0.3);
+	background-attachment: fixed;
+	min-height: 350px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#imagen-portada-boleting{
+	background-image: url(../images/boletines/portada-boletin.jpg);
+	min-height: 350px;
+	width: 100%;
+}
+#portada-boletin{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+#menu-boletines{
+	background-color: #eee;
+	text-align: left;
+	width: 25%;
+}
+#menu-boletines a{
+	color: #2d2d2d;
+	font-size: 1em;
+	text-decoration: none;
+
+	-webkit-transition: ease all 0.6s;
+	-moz-transition: ease all 0.6s;
+	-o-transition: ease all 0.6s;
+	-ms-transition: ease all 0.6s;
+	transition: ease all 0.6s;
+}
+#menu-boletines a:hover{
+	color: #FF8000;
+	padding-left: 1em;
+	text-decoration: underline;
+}
+
+#menu-boletines h3{
+	background-color: #395876;
+	color: #eee;
+	margin: 0;
+	padding: 0.7em 0.7em;
+}
+#menu-boletines li{
+	margin-top: 1.1em;
+	padding-left: 0.7em;
+}
+#menu-boletines ul{
+	list-style: none;
+	margin: 1em 0;
+	padding: 0;
+}
+#texto-boletin h2{
+	border-bottom: 1px solid #555;
+	font-size: 50px;
+	margin-bottom: 0;
+	text-align: right;
+}
+#texto-boletin p{
+	font-size: 22px;
+	text-align: left;
+}
+
+.fecha-publicado{
+	color: #555;
+	font-size: 0.9em;
+	float: right;
+	margin: 0;
+	padding: 0;
+}

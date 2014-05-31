@@ -1,0 +1,62 @@
+/*
+Name: acerca-cortv.css;
+Description: Hoja de estilos de la pagina de Acerca De
+			Donde se mostrara la información de la
+			Corporación Oaxaqueña de Radio y Televisión;
+*/
+#acerca-content{
+	border-left: solid #323e4a 1px;
+	padding: 0.2em 1em;
+	text-align: left;
+	width: 70%;
+}
+
+#acerca-content h3{
+	font-size: 24px;
+}
+
+#acerca-content, #acerca-menu{
+	display: inline-block;
+	vertical-align: top;
+}
+#acerca-menu{
+	font-size: 22px;
+	padding: 2.2em 0; 
+	width: 25%;
+}
+
+#acerca-menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#acerca-menu li{
+	list-style: none;
+	padding: 0;
+	margin: 0.5em 0;
+	text-align: right;
+}
+
+#acerca-menu a{
+	color: #323e4a;
+	padding: 0.2em 0;
+	text-decoration: none;
+	-webkit-transition: ease all 0.4s;
+	-moz-transition: ease all 0.4s;
+	-op-transition: ease all 0.4s;
+	-ms-transition: ease all 0.4s;
+	transition: ease all 0.4s;
+}
+#acerca-menu a:hover{
+	margin-right: 1em;
+	text-decoration: underline;
+}
+
+#acerca-page{
+	color: #323e4a;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	position: relative;
+	text-align: justify;
+	width: 90%;
+}

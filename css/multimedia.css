@@ -1,0 +1,69 @@
+/*
+Name: multimedia.css;
+Description: Hoja de estilos para toda la sección de multimedia;
+Author: CORTV;
+*/
+
+#multimedia-wrapper{
+	border-left: 1.5px solid #d2d2d2;
+	width: 80%;
+}
+
+#navegacion-multimedia, #multimedia-wrapper{
+	display: inline-block;
+	margin-top: 2em;
+	padding: 1.5em 0;
+	vertical-align: top;
+}
+
+#navegacion-multimedia{
+	font-size: 1.5em;
+	text-align: left;
+	width: 15%;
+}
+#navegacion-multimedia ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+#navegacion-multimedia li{
+	padding: 0.3em 0;
+	list-style: none;
+}
+#navegacion-multimedia li a{
+	color: #3f3f3f;
+	text-decoration: none;
+}
+
+#videos{
+	overflow: hidden;
+}
+#videos ul{
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+}
+
+#videos li{
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+}
+
+.video{
+	text-align: left;
+	width: 33%;
+}
+
+.video h3{
+	margin: 0;
+}
+.video p{
+	border-bottom: 1px solid #d2d2d2;
+	margin: 0.2em 0;
+	padding-bottom: 0.3em;
+}
+.video span{
+	color: #d2d2d2;
+	float: right;
+}

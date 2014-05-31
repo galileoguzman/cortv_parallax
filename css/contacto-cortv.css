@@ -1,0 +1,113 @@
+/*
+Name: acerca-cortv.css;
+Description: Hoja de estilos de la pagina de Acerca De
+			Donde se mostrara la información de la
+			Corporación Oaxaqueña de Radio y Televisión;
+*/
+
+@import url(fonts.css);
+
+#contacto-mail{
+	background-color: rgba(255,255,255,0.7);
+	right: 0;
+	padding: 0.2em 8% 0.2em 0.5em;
+	position: absolute;
+	top: 8%;
+	z-index: 3;
+}
+#contacto-mail a{
+	color: #020202;
+	text-decoration: none;
+}
+#contacto-page{
+	color: #323e4a;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	margin: 0 auto;
+	max-width: 100%;
+	z-index: 3;
+}
+#contacto-programas{
+
+}
+#nombre, #email{
+	border: medium none;
+	color: #000 !important;
+	display: inline-block;
+	outline: 0;
+	padding: 0.5em 2em;
+}
+
+#portada-contacto{
+	min-height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+#portada-contacto img{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+#registro{
+	background-color: rgba(255,255,255,0.7);
+	color: #020202;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+	z-index: 4;
+}
+#registro h3{
+	font-size: 26px;
+	z-index: 2;
+}
+#suscribirse{
+	border-radius:10px 10px 0 0; 
+	background-color: rgba(100,100,100,0.8);
+	margin: 0 auto;
+	padding: 1em;
+	width: 50%;
+}
+
+#programas{
+	width: 100%;
+}
+#programas ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#programas li{
+	float: left;
+	list-style: none;
+	position: relative;
+	overflow: hidden;
+	width: 50%;
+}
+#programas img{
+
+}
+#programas span{
+	background-color: rgba(0,0,0,0.5);
+	bottom: 2.5%;
+	left: 0;
+	padding: 0.5em 0;
+	position: absolute;
+	width: 100%;
+}
+#programas a{
+	color: #fff;
+	font-size: 1.2em;
+	height: 100%;
+	text-decoration: none;
+}
+
+#wrapp{
+	margin: 0 auto;
+	width: 90%;
+}
